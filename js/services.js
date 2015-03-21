@@ -15063,6 +15063,7 @@ angular.module('starter.services', [])
         var en = cards_en[i];
         var t = cards[i];
         t.symbol = symbols[t.faction];
+        t.traits_en = en.traits;
         t.name_en = en.name;
         t.text_en = en.text;
     }
