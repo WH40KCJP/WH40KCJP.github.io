@@ -1,0 +1,12 @@
+<ion-view view-title="カードリスト">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="cardlist in cardlists" href="#/app/cardlists/{{cardlist.number}}">
+        {{cardlist.number}}
+        <span ng-bind-html="cardlist.symbol"></span>
+        {{cardlist.name_en}}({{cardlist.name}})
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
