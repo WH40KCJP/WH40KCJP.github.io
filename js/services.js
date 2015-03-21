@@ -413,7 +413,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "Yes",
 "traits"        : "レリック. ウェポン.",
-"text"          : "<strong><em>レリック</em></strong>はプレイヤー１枚制限\nユニーク ユニットに装備可能\n装備しているユニットは +1 ATK と アーマーベイン を得る<em>(このユニットが攻撃するとき相手はシールドカードを使用できない)</em>",
+"text"          : "<strong><em>レリック</em></strong>はプレイヤー１枚制限<br/>ユニーク ユニットに装備可能<br/>装備しているユニットは +1 ATK と アーマーベイン を得る<em>(このユニットが攻撃するとき相手はシールドカードを使用できない)</em>",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -653,7 +653,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 戦車. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nあなたがコントロールするこのプラネットの<strong><em>乗り物</em></strong>でないユニットは敵のカード能力の対象にならない",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>あなたがコントロールするこのプラネットの<strong><em>乗り物</em></strong>でないユニットは敵のカード能力の対象にならない",
 
 "cost"          : 5,
 "textcost"      : "5",
@@ -853,7 +853,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. レイヴンガード.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -1053,7 +1053,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. ウェポン.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +1 ATK と +1 HP を得、攻撃するとき敵ユニットの飛行キーワードを無視する",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +1 ATK と +1 HP を得、攻撃するとき敵ユニットの飛行キーワードを無視する",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -1093,7 +1093,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "レリック. ウォーギア.",
-"text"          : "<strong><em>レリック</em></strong>はプレイヤー１枚制限\nユニーク ユニットに装備可能\n<strong>インタラプト</strong>: 装備しているユニット１体が攻撃によってダメージを割り当てられるとき、このアタッチメントをエグゾーストしてそのダメージを全て軽減する",
+"text"          : "<strong><em>レリック</em></strong>はプレイヤー１枚制限<br/>ユニーク ユニットに装備可能<br/><strong>インタラプト</strong>: 装備しているユニット１体が攻撃によってダメージを割り当てられるとき、このアタッチメントをエグゾーストしてそのダメージを全て軽減する",
 
 "cost"          : 3,
 "textcost"      : "3",
@@ -1133,7 +1133,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\n<strong>インタラプト</strong>: あなたが [SPACE MARINE] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/><strong>インタラプト</strong>: あなたが [SPACE MARINE] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -1333,7 +1333,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "スキル.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +1 ATK を得る\n<strong>インタラプト</strong>: 装備しているユニットが戦場を離れたとき、３枚カードを引く",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +1 ATK を得る<br/><strong>インタラプト</strong>: 装備しているユニットが戦場を離れたとき、３枚カードを引く",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -1413,7 +1413,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "兵士. ケイディア.",
-"text"          : "レンジ<em>(このユニットは戦闘開始時のレンジ衝突の間に攻撃する)</em>\n<strong>リアクション</strong>: このプラネットにいるあなたのコントロールするアーミー ユニット１体が戦場を離れたとき、このユニットをレディにする",
+"text"          : "レンジ<em>(このユニットは戦闘開始時のレンジ衝突の間に攻撃する)</em><br/><strong>リアクション</strong>: このプラネットにいるあなたのコントロールするアーミー ユニット１体が戦場を離れたとき、このユニットをレディにする",
 
 "cost"          : 3,
 "textcost"      : "3",
@@ -1533,7 +1533,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 戦車. モルディアン.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nエリアエフェクト (1). <em>(このユニットが攻撃するとき、攻撃ダメージを与える代わりにエリアエフェクトダメージをこのプラネットにいる全ての敵ユニットに与えてもよい)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>エリアエフェクト (1). <em>(このユニットが攻撃するとき、攻撃ダメージを与える代わりにエリアエフェクトダメージをこのプラネットにいる全ての敵ユニットに与えてもよい)</em>",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -1573,7 +1573,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 輸送機.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -1933,7 +1933,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. アーマー.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +3 HP を得る",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +3 HP を得る",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -1973,7 +1973,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "コンディション.",
-"text"          : "あなたがコントロールするアーミー ユニットに装備可能\n<strong>強制リアクション</strong>: あなたがコントロールするこのプラネットのユニット１体が攻撃によってダメージを割り当てられるとき、装備しているユニットにそのダメージから１ダメージを再割り当てする",
+"text"          : "あなたがコントロールするアーミー ユニットに装備可能<br/><strong>強制リアクション</strong>: あなたがコントロールするこのプラネットのユニット１体が攻撃によってダメージを割り当てられるとき、装備しているユニットにそのダメージから１ダメージを再割り当てする",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -2013,7 +2013,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)\n</em><strong>インタラプト</strong>: あなたが [ASTRA MILITARUM] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)<br/></em><strong>インタラプト</strong>: あなたが [ASTRA MILITARUM] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -2053,7 +2053,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "No",
 "traits"        : "アップグレード.",
-"text"          : "このカードが４以上のダメージを持つとき犠牲にする\n<strong>インタラプト</strong>: あなたがコントロールするユニット１体にダメージが割り当てられるとき、このサポートをエグゾーストしてこのサポートにそのダメージから１ダメージを再割り当てする",
+"text"          : "このカードが４以上のダメージを持つとき犠牲にする<br/><strong>インタラプト</strong>: あなたがコントロールするユニット１体にダメージが割り当てられるとき、このサポートをエグゾーストしてこのサポートにそのダメージから１ダメージを再割り当てする",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -2253,7 +2253,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. バイオニック.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットのHPを倍にする",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットのHPを倍にする",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -2453,7 +2453,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. ウォーカー.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nブルータル(このユニットはダメージトークン１つにつき +1 ATK を得る)",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>ブルータル(このユニットはダメージトークン１つにつき +1 ATK を得る)",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -2773,7 +2773,7 @@ angular.module('starter.services', [])
 "type"          : "イベント",
 "unique"        : "No",
 "traits"        : "パワー.",
-"text"          : "戦闘の間にのみプレイできる\n<strong>コンバットアクション</strong>: 戦闘終了まであなたのコントロールする全ての [ORK] ユニットは +2 ATK を得る",
+"text"          : "戦闘の間にのみプレイできる<br/><strong>コンバットアクション</strong>: 戦闘終了まであなたのコントロールする全ての [ORK] ユニットは +2 ATK を得る",
 
 "cost"          : 3,
 "textcost"      : "3",
@@ -2893,7 +2893,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. ウェポン.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは レンジ を得る<em> (レンジを持つユニットは戦闘開始時のレンジ衝突の間に攻撃する)</em>",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは レンジ を得る<em> (レンジを持つユニットは戦闘開始時のレンジ衝突の間に攻撃する)</em>",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -2973,7 +2973,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "アップグレード.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)\n</em><strong>インタラプト</strong>: あなたが [ORK] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)<br/></em><strong>インタラプト</strong>: あなたが [ORK] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -3173,7 +3173,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "呪い.",
-"text"          : "アーミー ユニットに装備可能\n<strong>インタラプト</strong>: 装備しているユニットが戦場を離れるとき、このプラネットにいる全ての敵ユニットに１ダメージを与える",
+"text"          : "アーミー ユニットに装備可能<br/><strong>インタラプト</strong>: 装備しているユニットが戦場を離れるとき、このプラネットにいる全ての敵ユニットに１ダメージを与える",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -3373,7 +3373,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "ディーモン. コーン. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nエリアエフェクト (3)<em>(このユニットが攻撃するとき、攻撃ダメージを与える代わりにエリアエフェクトダメージをこのプラネットにいる全ての敵ユニットに与えてもよい)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>エリアエフェクト (3)<em>(このユニットが攻撃するとき、攻撃ダメージを与える代わりにエリアエフェクトダメージをこのプラネットにいる全ての敵ユニットに与えてもよい)</em>",
 
 "cost"          : 5,
 "textcost"      : "5",
@@ -3453,7 +3453,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "ディーモン. ブラックレギオン. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>",
 
 "cost"          : 8,
 "textcost"      : "8",
@@ -3493,7 +3493,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "ディーモン. コーン. エリート.",
-"text"          : "装備できない\n<strong>アクション</strong>: <strong><em>カルティスト</em></strong>ユニット１体を犠牲にしてこのユニットから全てのダメージを取り除く",
+"text"          : "装備できない<br/><strong>アクション</strong>: <strong><em>カルティスト</em></strong>ユニット１体を犠牲にしてこのユニットから全てのダメージを取り除く",
 
 "cost"          : 5,
 "textcost"      : "5",
@@ -3613,7 +3613,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "ディーモン. ウォーエンジン. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n<strong>リアクション</strong>: あなたがこのプラネットのコマンドストラグルに勝利したとき、対戦相手は同じプラネットにいるウォーロードでないユニット１体を可能なら犠牲にしなければならない",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/><strong>リアクション</strong>: あなたがこのプラネットのコマンドストラグルに勝利したとき、対戦相手は同じプラネットにいるウォーロードでないユニット１体を可能なら犠牲にしなければならない",
 
 "cost"          : 6,
 "textcost"      : "6",
@@ -3813,7 +3813,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. アーマー.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +2 ATK と +2 HP を得る",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +2 ATK と +2 HP を得る",
 
 "cost"          : 2,
 "textcost"      : "2",
@@ -3853,7 +3853,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "呪い. ティーンチ.",
-"text"          : "<strong>アンブッシュ</strong><em>(あなたはこのカードをコンバットフェーズ中にデプロイしてもよい)\n</em>アーミー ユニットに装備可能\n<strong>強制インタラプト</strong>: 装備しているユニットがエグゾーストするとき、それに１ダメージを与える",
+"text"          : "<strong>アンブッシュ</strong><em>(あなたはこのカードをコンバットフェーズ中にデプロイしてもよい)<br/></em>アーミー ユニットに装備可能<br/><strong>強制インタラプト</strong>: 装備しているユニットがエグゾーストするとき、それに１ダメージを与える",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -3893,7 +3893,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)\n</em><strong>インタラプト</strong>: あなたが [CHAOS] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)<br/></em><strong>インタラプト</strong>: あなたが [CHAOS] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -4093,7 +4093,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. ウェポン.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットはあなたのコントロールするカイメラトークン１体につき +1 ATK を得る",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットはあなたのコントロールするカイメラトークン１体につき +1 ATK を得る",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -4373,7 +4373,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 輸送機.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nモービル<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>モービル<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -4413,7 +4413,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 戦車. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n飛行<em>(飛行を持たないユニットからのダメージを半減する)</em>\n<strong>リアクション</strong>: このユニットがウォーロードでないユニット１体にダメージを与えたとき、そのユニットを敗走させる",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>飛行<em>(飛行を持たないユニットからのダメージを半減する)</em><br/><strong>リアクション</strong>: このユニットがウォーロードでないユニット１体にダメージを与えたとき、そのユニットを敗走させる",
 
 "cost"          : 6,
 "textcost"      : "6",
@@ -4453,7 +4453,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "Creature. 同盟.",
-"text"          : "装備できない\n<strong>リアクション</strong>: あなたがこのユニットをデプロイしたとき、対戦相手は手札を１枚ランダムに捨てる",
+"text"          : "装備できない<br/><strong>リアクション</strong>: あなたがこのユニットをデプロイしたとき、対戦相手は手札を１枚ランダムに捨てる",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -4693,7 +4693,7 @@ angular.module('starter.services', [])
 "type"          : "イベント",
 "unique"        : "No",
 "traits"        : "戦術.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\n<strong>アクション</strong>: 対戦相手があなたよりリソースが多いなら 1[RESOURCE] を対戦相手から取る",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/><strong>アクション</strong>: 対戦相手があなたよりリソースが多いなら 1[RESOURCE] を対戦相手から取る",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -4733,7 +4733,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "コンディション.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは -2 ATK を得る",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは -2 ATK を得る",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -4773,7 +4773,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア.",
-"text"          : "アーミー ユニットに装備可能\n<strong>リアクション</strong>: あなたが [DARK ELDAR] イベントカード１枚をプレイしたとき、装備しているユニットをレディにする",
+"text"          : "アーミー ユニットに装備可能<br/><strong>リアクション</strong>: あなたが [DARK ELDAR] イベントカード１枚をプレイしたとき、装備しているユニットをレディにする",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -4813,7 +4813,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\n<strong>インタラプト</strong>: あなたが [DARK ELDAR] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/><strong>インタラプト</strong>: あなたが [DARK ELDAR] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -5013,7 +5013,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "スキル.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは モービル を得る<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは モービル を得る<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -5133,7 +5133,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "スカウト. 同盟.",
-"text"          : "[CARD BONUS +1]\n[RESOURCE BONUS +1]",
+"text"          : "[CARD BONUS +1]<br/>[RESOURCE BONUS +1]",
 
 "cost"          : 2,
 "textcost"      : "2",
@@ -5173,7 +5173,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. セイム=ハン.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n<strong>コンバットアクション</strong>: このユニットを隣接するプラネットに移す(フェーズにつき１回しか使用できない)",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/><strong>コンバットアクション</strong>: このユニットを隣接するプラネットに移す(フェーズにつき１回しか使用できない)",
 
 "cost"          : 4,
 "textcost"      : "4",
@@ -5213,7 +5213,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\nモービル<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>モービル<em>(コンバットフェーズの開始時に、このユニットを隣接するプラネットに移してもよい)</em>",
 
 "cost"          : 3,
 "textcost"      : "3",
@@ -5253,7 +5253,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. スピリット. エリート.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n飛行<em>(飛行を持たないユニットからのダメージを半減する)\n</em><strong>リアクション</strong>: このユニットが攻撃を宣言したとき、対戦相手は可能なら手札から１枚カードを選び捨てる",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/>飛行<em>(飛行を持たないユニットからのダメージを半減する)<br/></em><strong>リアクション</strong>: このユニットが攻撃を宣言したとき、対戦相手は可能なら手札から１枚カードを選び捨てる",
 
 "cost"          : 6,
 "textcost"      : "6",
@@ -5693,7 +5693,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. ウェポン.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +1 ATK を得る<strong>インタラプト</strong>: 装備しているユニットがウォーロードでないユニットに対して攻撃を宣言するとき、あなたの手札からX枚のカードを捨ててその攻撃に対して装備しているユニットに +X ATK を与える",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +1 ATK を得る<strong>インタラプト</strong>: 装備しているユニットがウォーロードでないユニットに対して攻撃を宣言するとき、あなたの手札からX枚のカードを捨ててその攻撃に対して装備しているユニットに +X ATK を与える",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -5733,7 +5733,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\n<strong>インタラプト</strong>: あなたが [ELDAR] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/><strong>インタラプト</strong>: あなたが [ELDAR] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -5933,7 +5933,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ドローン.",
-"text"          : "ユニット装備可能\n装備しているユニットは +1 ATK を得る<strong>アクション</strong>: 1[RESOURCE] を支払って異なるユニット１体にこのカードを装備する",
+"text"          : "ユニット装備可能<br/>装備しているユニットは +1 ATK を得る<strong>アクション</strong>: 1[RESOURCE] を支払って異なるユニット１体にこのカードを装備する",
 
 "cost"          : 0,
 "textcost"      : "0",
@@ -6413,7 +6413,7 @@ angular.module('starter.services', [])
 "type"          : "アーミー ユニット",
 "unique"        : "No",
 "traits"        : "乗り物. 輸送機.",
-"text"          : "<strong><em>ウォーギア</em></strong>を装備できない\n<strong>リアクション</strong>: このユニットがプラネットにコミットしたとき、それをレディにする",
+"text"          : "<strong><em>ウォーギア</em></strong>を装備できない<br/><strong>リアクション</strong>: このユニットがプラネットにコミットしたとき、それをレディにする",
 
 "cost"          : 3,
 "textcost"      : "3",
@@ -6573,7 +6573,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア.",
-"text"          : "アーミー ユニットに装備可能\nユニット１体につき１枚制限\n<strong>リアクション</strong>: 装備しているユニットが攻撃によってダメージを受けたとき、２ダメージを攻撃したユニットに与える",
+"text"          : "アーミー ユニットに装備可能<br/>ユニット１体につき１枚制限<br/><strong>リアクション</strong>: 装備しているユニットが攻撃によってダメージを受けたとき、２ダメージを攻撃したユニットに与える",
 
 "cost"          : 2,
 "textcost"      : "2",
@@ -6613,7 +6613,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "ウォーギア. ウェポン.",
-"text"          : "アーミー ユニットに装備可能\n装備しているユニットは +3 ATK を得る",
+"text"          : "アーミー ユニットに装備可能<br/>装備しているユニットは +3 ATK を得る",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -6653,7 +6653,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "Yes",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド <em>(リミテッドは１ラウンド１枚制限)\n</em><strong>インタラプト</strong>: あなたが [TAU] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
+"text"          : "リミテッド <em>(リミテッドは１ラウンド１枚制限)<br/></em><strong>インタラプト</strong>: あなたが [TAU] ユニット１体をデプロイするとき、このサポートをエグゾーストしてそのユニットのコストを１減らす",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -6693,7 +6693,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "No",
 "traits"        : "アップグレード.",
-"text"          : "<strong>インタラプト</strong>: あなたがアタッチメント１枚をデプロイするとき、そのコストを１減らす\n<strong>コンバットアクション</strong>: このサポートをエグゾーストしてあなたの手札からアタッチメント１枚をデプロイする",
+"text"          : "<strong>インタラプト</strong>: あなたがアタッチメント１枚をデプロイするとき、そのコストを１減らす<br/><strong>コンバットアクション</strong>: このサポートをエグゾーストしてあなたの手札からアタッチメント１枚をデプロイする",
 
 "cost"          : 2,
 "textcost"      : "2",
@@ -6893,7 +6893,7 @@ angular.module('starter.services', [])
 "type"          : "サポート",
 "unique"        : "No",
 "traits"        : "ロケーション.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\n<strong>強制リアクション</strong>: このカードがHQに出たとき、4[RESOURCE] をこの上に置く\n<strong>リアクション</strong>: デプロイフェーズが始まったとき、このカードから 1[RESOURCE] をあなたのリソースプールへ移す",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/><strong>強制リアクション</strong>: このカードがHQに出たとき、4[RESOURCE] をこの上に置く<br/><strong>リアクション</strong>: デプロイフェーズが始まったとき、このカードから 1[RESOURCE] をあなたのリソースプールへ移す",
 
 "cost"          : 1,
 "textcost"      : "1",
@@ -6933,7 +6933,7 @@ angular.module('starter.services', [])
 "type"          : "アタッチメント",
 "unique"        : "No",
 "traits"        : "スキル.",
-"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em>\nアーミー ユニットに装備可能\n装備しているユニットは ２コマンドアイコン を得る",
+"text"          : "リミテッド<em>(リミテッドは１ラウンド１枚制限)</em><br/>アーミー ユニットに装備可能<br/>装備しているユニットは ２コマンドアイコン を得る",
 
 "cost"          : 0,
 "textcost"      : "0",
